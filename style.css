@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: antiquewhite;
 }
 
@@ -16,43 +16,50 @@ header {
     top: 0;
     width: 100%;
     background-color: rgba(255, 255, 155, 0.9);
-    padding:1px 1px;
+    padding: 1px 1px;
     box-sizing: border-box;
 }
 
 .logoHeader {
     font-size: 24px;
     margin: 0;
-    padding:8px 15px;
+    padding: 8px 15px;
 }
 
 nav a {
-    text-decoration: none; 
+    text-decoration: none;
     background-color: rgb(238, 202, 0);
     color: rgb(114, 70, 11);
     font-size: 16px;
     padding: 8px 15px;
     margin: 0px 5px;
     border-radius: 20px 20px 10px 10px;
-     box-shadow:
-    0px 6px 0px rgb(145, 95, 37),
+    box-shadow: 0px 6px 0px rgb(145, 95, 37);
 }
 
 nav a:hover {
     color: rgb(112, 76, 9);
     background-color: rgb(173, 128, 50);
-    box-shadow:
+    box-shadow: 
         0px 6px 0px white,
         0px 10px 0px rgb(202, 182, 70);
     transition: 0.5s;
 }
+
 section.Home {
-    min-height: 100vh; 
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, rgba(52, 216, 145, 0.3) 0%, rgba(52, 216, 145, 0.2) 30%, rgba(255, 233, 124, 0.4) 60%, rgba(255, 233, 124, 0.9) 90%), url("kvass.png");
+    background-image: linear-gradient(
+            to bottom,
+            rgba(52, 216, 145, 0.3) 0%,
+            rgba(52, 216, 145, 0.2) 30%,
+            rgba(255, 233, 124, 0.4) 60%,
+            rgba(255, 233, 124, 0.9) 90%
+        ),
+        url("kvass.png");
     display: flex;
     align-items: center;
 }
@@ -60,21 +67,20 @@ section.Home {
 .kotakBiotek {
     width: 50%;
     margin-left: 10%;
-    color: rgb(104, 90, 9); 
+    color: rgb(104, 90, 9);
     background-color: rgb(255, 215, 122);
     border-radius: 20px;
     padding: 10px 50px;
     margin: 10px;
-
 }
 
 .namaBiotek {
     font-size: 60px;
-    color: #463805; 
+    color: #463805;
 }
 
 section.About {
-    padding: 1px 2px; 
+    padding: 1px 2px;
     min-height: 100vh;
     box-sizing: border-box;
 }
@@ -83,32 +89,33 @@ section.About {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    color:rgb(128, 79, 0);
+    color: rgb(128, 79, 0);
     background-color: rgb(255, 217, 122);
     border-radius: 20px;
     padding: 10px 20px;
     margin: 25px;
 }
-.deskProject{
-    color:rgb(128, 79, 0);
+
+.deskProject {
+    color: rgb(128, 79, 0);
     background-color: rgb(255, 217, 122);
     border-radius: 20px;
     padding: 10px 50px;
     margin: 10px;
 }
-.fotoproyek{
-    width:500px;
+
+.fotoproyek {
+    width: 500px;
 }
+
 .penjelasan {
     text-align: left;
     flex: 1;
 }
 
 .dokumentasi img {
-      max-width: 400px;
+    max-width: 400px;
     border-radius: 10px;
-    transition: transform 0.3s ease;
-
 }
 
 .cardProfile {
@@ -119,12 +126,7 @@ section.About {
     border-radius: 15px;
 }
 
-.imgProfile {
+.imgProfile img {
     width: 100%;
     border-radius: 10px;
-
 }
-
-
-
-
