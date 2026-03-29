@@ -66,6 +66,10 @@ section.Home {
     padding: 10px 50px;
     margin: 10px;
 }
+.namaBiotek {
+    font-size: 60px;
+    color: #463805;
+}
 
 
 section.About {
@@ -87,10 +91,7 @@ section.About {
     padding: 10px 50px;
     margin: 10px;
 }
-.AboutKvass {
-    font-size: 60px;
-    color: #463805;
-}
+
 .deskHowto {
     display: flex;
     justify-content: center;
