@@ -108,10 +108,7 @@ section.About {
       max-width: 400px;
     border-radius: 10px;
     transition: transform 0.3s ease;
-    
-.dokumentasi img:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+
 }
 
 .cardProfile {
@@ -122,7 +119,7 @@ section.About {
     border-radius: 15px;
 }
 
-.imgProfile img {
+.imgProfile {
     width: 100%;
     border-radius: 10px;
 
