@@ -74,6 +74,7 @@ section.Home {
 }
 
 section.About {
+    background: linear-gradient(to top, rgb(255, 217, 122), rgba(255, 217, 122, 0.5), transparent);
     padding: 1px 2px; 
     min-height: 100vh;
     box-sizing: border-box;
