@@ -84,12 +84,12 @@ section.About {
 }
 .kotakAbout {
     width: 50%;
-    margin-right: 10%;
+    margin-left: auto;  
+    margin-right: 10px;
     color: rgb(104, 90, 9);
     background-color: rgb(255, 215, 122);
     border-radius: 20px;
     padding: 10px 50px;
-    margin: 10px;
 }
 
 .deskHowto {
