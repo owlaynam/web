@@ -76,8 +76,6 @@ section.Home {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("img4.png");
-    background-image: linear-gradient(to top, rgba(52, 216, 145, 0.3) 0%, rgba(52, 216, 145, 0.2) 40%, rgba(255, 233, 124, 0.4) 70%, rgba(255, 233, 124, 0.9) 100%), url("img4.png");
     display: flex;
     justify-content: flex-end;
     align-items: center;  
@@ -90,7 +88,8 @@ section.Home {
     background-color: rgba(255, 215, 122, 0.95);
     border-radius: 20px;
     padding: 1px 5px;
-    text-align: justify;
+    text-align: center;
+    
 }
 
 .deskHowto {
