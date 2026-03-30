@@ -89,7 +89,7 @@ section.About {
 }
 .kotakAbout img {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto; 
     border-radius: 15px;
     margin-bottom: 15px;
@@ -97,6 +97,7 @@ section.About {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 .deskHowto {
     display: flex;
@@ -107,6 +108,7 @@ section.About {
     border-radius: 20px;
     padding: 10px 20px;
     margin: 25px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 .deskProject {
@@ -115,10 +117,12 @@ section.About {
     border-radius: 20px;
     padding: 10px 50px;
     margin: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 .fotoproyek {
-    width: 300px;
+    width: 200px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 .penjelasan {
@@ -129,6 +133,7 @@ section.About {
 .dokumentasi img {
     max-width: 400px;
     border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 .cardProfile {
@@ -137,11 +142,13 @@ section.About {
     width: 300px;
     margin: 50px auto;
     border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 .imgProfile img {
     width: 100%;
     border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 .medsos{
     left: 0;
@@ -163,4 +170,5 @@ section.About {
     padding: 10px;
     border-radius: 15px 15px 15px 15px;
     transform: scale(1.2);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
