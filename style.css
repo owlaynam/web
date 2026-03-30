@@ -41,87 +41,105 @@ nav a:hover {
         0px 10px 0px rgb(199, 159, 0);
     transition: 0.5s;
 }
-section.Home {
-    height: 800px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("kvass.png");
+bedainsection.Home {
 
-}
-section.Project {
-    height: 800px;
-    text-align: center;
-    color:rgb(199, 159, 0)
-}
-section.Howto {
+    min-height: 100vh;
 
-    height: 800px;
-    text-align: center;
-}
-section.Profile {
-    height: 800px;
-    text-align: center;
-}
-.kotakBiotek {
-    width: 40%;
-    margin-left: 50px;
-    padding-top: 100px;
-}
-.namaBiotek {
-    font-size: 50px;
-}
-.deskBiotek {
-    color: white;
-    font-size: 20px;
-}
-section.project img {
-    height: 300px;
-}
-.deskProject {
-    width: 60%;
-    margin: auto;
-    padding: 50px 20px;
-}
-.howto {
-    height: 640px;
-    padding-top: 100px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: cover;
-}
-.howto img {
-    height: 500px;
-}
-.deskHowto {
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-image: linear-gradient(to bottom, rgba(52, 216, 145, 0.3) 0%, rgba(52, 216, 145, 0.2) 40%, rgba(255, 233, 124, 0.4) 70%, rgba(255, 233, 124, 0.9) 100%), url("kvass.png");
+
     display: flex;
-    width: 60%;
-    margin: auto;
-}
-.dokumentasi {
-    margin: 20px;
-}
-.cardProfile {
-    background-color: rgb(213, 209, 209);
-    padding: 15px;
-    width: 300px;
-    margin: auto;
-    text-align: center;
-}
-.imgProfile img {
-    width: 100%;
+
+    align-items: center;
+
 }
 
-.medsos {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 40px;
-    padding-top: 5px;
+
+
+.kotakBiotek {
+
+    width: 50%;
+
+    margin-left: 10%;
+
+    color: rgb(104, 90, 9);
+
+    background-color: rgb(255, 215, 122);
+
+    border-radius: 20px;
+
+    padding: 10px 50px;
+
+    margin: 10px;
+
 }
-.medsos a {
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: 24px;
+
+.namaBiotek {
+
+    font-size: 60px;
+
+    color: #463805;
+
 }
+
+    section.About {
+
+    min-height: 100vh;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-image: linear-gradient(to top, rgba(52, 216, 145, 0.3) 0%, rgba(52, 216, 145, 0.2) 40%, rgba(255, 233, 124, 0.4) 70%, rgba(255, 233, 124, 0.9) 100%), url("img4.png");
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;  
+
+}
+
+
+
+.kotakAbout {
+
+    width: 45%; 
+
+    margin-right: 50px; 
+
+    color: rgb(104, 90, 9);
+
+    background-color: rgba(255, 215, 122, 0.95);
+
+    border-radius: 20px;
+
+    padding: 30px 40px;
+
+    text-align: justify;
+
+}
+
+
+
+.deskHowto {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    color: rgb(128, 79, 0);
+    background-color: rgb(255, 217, 122);
