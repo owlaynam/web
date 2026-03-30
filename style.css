@@ -1,95 +1,140 @@
-body{
-    margin:0;
-    font-family:'Afacad Flux', sans-serif;
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 233, 124);
 }
 
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-/* NAVBAR */
-nav{
-    position:fixed;
-    width:100%;
-    background:#eeca00;
-    text-align:center;
-    padding:15px;
-    z-index:1000;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 155, 0.9);
+    padding: 1px 1px;
+    box-sizing: border-box;
 }
 
-nav a{
-    text-decoration:underline;
-    color:#72460b;
-    margin:10px;
-    font-size:18px;
+.logoHeader {
+    font-size: 24px;
+    margin: 0;
+    padding: 8px 15px;
 }
 
-/* SECTION AUTO KE BAWAH */
-section{
-    padding:100px 50px;
+nav a {
+    text-decoration: none;
+    background-color: rgb(238, 202, 0);
+    color: rgb(114, 70, 11);
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 0px 5px;
+    border-radius: 20px 20px 10px 10px;
+    box-shadow: 0px 6px 0px rgb(145, 95, 37);
 }
 
-/* HOME FULL */
-section.Home{
-    min-height:100vh;
-    background:url("kvass.png");
-    background-size:cover;
-    background-position:center;
-    color:white;
+nav a:hover {
+    color: rgb(112, 76, 9);
+    background-color: rgb(173, 128, 50);
+    box-shadow:
+        0px 6px 0px white,
+        0px 10px 0px rgb(202, 182, 70);
+    transition: 0.5s;
 }
 
-/* TEXT */
-.kotakBiotek{
-    width:50%;
+section.Home {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgba(52, 216, 145, 0.3) 0%, rgba(52, 216, 145, 0.2) 40%, rgba(255, 233, 124, 0.4) 70%, rgba(255, 233, 124, 0.9) 100%), url("kvass.png");
+    display: flex;
+    align-items: center;
 }
 
-.namaBiotek{
-    font-size:50px;
+.kotakBiotek {
+    width: 50%;
+    margin-left: 10%;
+    color: rgb(104, 90, 9);
+    background-color: rgb(255, 215, 122);
+    border-radius: 20px;
+    padding: 1px 5px;
+    margin: 10px;
+}
+.namaBiotek {
+    font-size: 60px;
+    color: #463805;
+}
+    section.About {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
 }
 
-.deskBiotek{
-    font-size:20px;
-    line-height:1.6;
+.kotakAbout {
+    width: 50%; 
+    margin-left: 100px; 
+    color:255, 233, 124;
+    background-color: rgb(255, 215, 122, 0.95);
+    border-radius: 20px;
+    padding: 1px 5px;
+    text-align: center;
+    
+    
 }
 
-/* ABOUT */
-.deskProject{
-    display:flex;
-    gap:30px;
-    align-items:center;
+.deskHowto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(128, 79, 0);
+    background-color: rgb(213, 209, 209);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 25px;
 }
 
-.deskProject img{
-    width:250px;
+.deskProject {
+    color: rgb(128, 79, 0);
+    background-color: rgb(213, 209, 209);
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin: 10px;
 }
 
-/* HOWTO */
-.deskHowto{
-    display:flex;
-    gap:40px;
+.fotoproyek {
+    width: 500px;
 }
 
-.penjelasan{
-    width:50%;
+.penjelasan {
+    text-align: left;
+    flex: 1;
 }
 
-.dokumentasi img{
-    width:300px;
+.dokumentasi img {
+    max-width: 400px;
+    border-radius: 10px;
 }
 
-/* PROFILE */
-.cardProfile{
-    width:300px;
-    margin:auto;
-    background:#ddd;
-    padding:20px;
+.cardProfile {
+    background-color: rgb(213, 209, 209);
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 15px;
 }
 
-.imgProfile img{
-    width:100%;
-}
-
-.medsos a{
-    margin:5px;
-    font-size:20px;
+.imgProfile img {
+    width: 100%;
+    border-radius: 10px;
 }
