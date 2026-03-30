@@ -143,3 +143,24 @@ section.About {
     width: 100%;
     border-radius: 10px;
 }
+.medsos{
+    left: 0;
+    bottom: 0;
+    width : 100%;
+    text-align: center;
+    height: 40px;
+}
+.medsos a{
+    text-decoration:none;
+    padding: 10px 10px;
+    font-size: 24px;
+    color: rgb(114, 70, 11);
+}
+.medsos a:hover{
+    color:rgb(112, 76, 9);
+    background-color: rgba(10, 66, 126, 0.811);
+    transition: 0.4s;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    transform: scale(1.2);
+}
