@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(255, 233, 124);;
 }
 
 html {
@@ -84,8 +84,8 @@ section.Home {
 .kotakAbout {
     width: 50%; 
     margin-left: 100px; 
-    color: rgb(104, 90, 9);
-    background-color: rgba(255, 215, 122, 0.95);
+    color:255, 233, 124;
+    background-color: rgb(255, 215, 122, 0.95);
     border-radius: 20px;
     padding: 1px 5px;
     text-align: center;
@@ -98,7 +98,7 @@ section.Home {
     justify-content: center;
     align-items: flex-start;
     color: rgb(128, 79, 0);
-    background-color: rgb(255, 217, 122);
+    background-color: rgb(213, 209, 209);
     border-radius: 20px;
     padding: 10px 20px;
     margin: 25px;
@@ -106,7 +106,7 @@ section.Home {
 
 .deskProject {
     color: rgb(128, 79, 0);
-    background-color: rgb(255, 217, 122);
+    background-color: rgb(213, 209, 209);
     border-radius: 20px;
     padding: 10px 50px;
     margin: 10px;
