@@ -103,7 +103,7 @@ section.About {
     justify-content: center;
     align-items: flex-start;
     color: rgb(128, 79, 0);
-    background-color: rgb(213, 209, 209);
+    background-color: rgba(255, 215, 122, 0.95);
     border-radius: 20px;
     padding: 10px 20px;
     margin: 25px;
@@ -132,7 +132,7 @@ section.About {
 }
 
 .cardProfile {
-    background-color: rgb(213, 209, 209);
+    background-color: rgba(255, 215, 122, 0.95);
     padding: 20px;
     width: 300px;
     margin: 50px auto;
@@ -157,7 +157,7 @@ section.About {
     color: rgb(114, 70, 11);
 }
 .medsos a:hover{
-    color:rgb(112, 76, 9);
+    color:rgb(166, 123, 61);
     background-color: rgba(10, 66, 126, 0.811);
     transition: 0.4s;
     padding: 10px;
