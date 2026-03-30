@@ -71,14 +71,13 @@ section.Home {
     font-size: 60px;
     color: #463805;
 }
-    section.About {
+section.About {
     min-height: 100vh;
     display: flex;
     justify-content: center; 
     align-items: center;  
     padding-top: 80px; 
 }
-
 .kotakAbout {
     width: 60%;
     color: rgb(104, 90, 9);
