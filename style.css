@@ -89,8 +89,8 @@ section.Home {
     border-radius: 20px;
     padding: 1px 5px;
     text-align: center;
-    
-    
+.kotakAbout img{
+    height: 700px;    
 }
 
 .deskHowto {
