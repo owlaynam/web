@@ -1,140 +1,127 @@
-body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 233, 124);
+body{
+    margin:0px;
 }
-
-html {
+html{
     scroll-behavior: smooth;
 }
-
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    height: 40px;
     position: fixed;
-    top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 155, 0.9);
-    padding: 1px 1px;
-    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
 }
 
-.logoHeader {
-    font-size: 24px;
-    margin: 0;
-    padding: 8px 15px;
+header img{
+    height:200px;
+    width: 450px;
 }
-
-nav a {
+nav {
+    margin-top: 10px;
+}
+nav a{
     text-decoration: none;
     background-color: rgb(238, 202, 0);
     color: rgb(114, 70, 11);
-    font-size: 16px;
-    padding: 8px 15px;
-    margin: 0px 5px;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 15px;
     border-radius: 20px 20px 10px 10px;
-    box-shadow: 0px 6px 0px rgb(145, 95, 37);
-}
-
-nav a:hover {
-    color: rgb(112, 76, 9);
-    background-color: rgb(173, 128, 50);
     box-shadow:
-        0px 6px 0px white,
-        0px 10px 0px rgb(202, 182, 70);
+    0px 6px 0px rgb(185, 121, 47),
+}
+nav a:hover {
+    color: rgb(239, 221, 170);
+    background-color: rgb(187, 106, 20);
+    box-shadow:
+        0px 6px 0px rgb(237, 168, 8),
+        0px 10px 0px rgb(199, 159, 0);
     transition: 0.5s;
 }
-
 section.Home {
-    min-height: 100vh;
+    height: 800px;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, rgba(52, 216, 145, 0.3) 0%, rgba(52, 216, 145, 0.2) 40%, rgba(255, 233, 124, 0.4) 70%, rgba(255, 233, 124, 0.9) 100%), url("kvass.png");
-    display: flex;
-    align-items: center;
-}
+    background-image: url("kvass.png");
 
+}
+section.Project {
+    height: 800px;
+    text-align: center;
+    color:rgb(199, 159, 0)
+}
+section.Howto {
+
+    height: 800px;
+    text-align: center;
+}
+section.Profile {
+    height: 800px;
+    text-align: center;
+}
 .kotakBiotek {
-    width: 50%;
-    margin-left: 10%;
-    color: rgb(104, 90, 9);
-    background-color: rgb(255, 215, 122);
-    border-radius: 20px;
-    padding: 1px 5px;
-    margin: 10px;
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
 }
 .namaBiotek {
-    font-size: 60px;
-    color: #463805;
+    font-size: 50px;
 }
-    section.About {
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.deskBiotek {
+    color: white;
+    font-size: 20px;
+}
+section.project img {
+    height: 300px;
+}
+.deskProject {
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+}
+.howto {
+    height: 640px;
+    padding-top: 100px;
     background-attachment: fixed;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.kotakAbout {
-    width: 50%; 
-    margin-left: 100px; 
-    color:255, 233, 124;
-    background-color: rgb(255, 215, 122, 0.95);
-    border-radius: 20px;
-    padding: 1px 5px;
-    text-align: center;
-.kotakAbout img{
-    height: 700px;    
+.howto img {
+    height: 500px;
 }
-
 .deskHowto {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    color: rgb(128, 79, 0);
-    background-color: rgb(213, 209, 209);
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin: 25px;
+    width: 60%;
+    margin: auto;
 }
-
-.deskProject {
-    color: rgb(128, 79, 0);
-    background-color: rgb(213, 209, 209);
-    border-radius: 20px;
-    padding: 10px 50px;
-    margin: 10px;
+.dokumentasi {
+    margin: 20px;
 }
-
-.fotoproyek {
-    width: 500px;
-}
-
-.penjelasan {
-    text-align: left;
-    flex: 1;
-}
-
-.dokumentasi img {
-    max-width: 400px;
-    border-radius: 10px;
-}
-
 .cardProfile {
     background-color: rgb(213, 209, 209);
-    padding: 20px;
+    padding: 15px;
     width: 300px;
-    margin: 50px auto;
-    border-radius: 15px;
+    margin: auto;
+    text-align: center;
 }
-
 .imgProfile img {
     width: 100%;
-    border-radius: 10px;
+}
+
+.medsos {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
 }
