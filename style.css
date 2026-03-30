@@ -65,7 +65,12 @@ section.Home {
     border-radius: 20px;
     padding: 1px 5px;
     margin: 10px;
+    &
+    img{
+        height: 700px;
 }
+}
+
 .namaBiotek {
     font-size: 60px;
     color: #463805;
